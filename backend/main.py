@@ -623,4 +623,4 @@ def get_courses(req: CoursesRequest):
     for c in unique:
         grouped.setdefault(c["platform"], []).append(c)
 
-    return {"courses": unique[:20], "grouped": grouped}
+    return {"courses": unique[:20], "grouped": grouped }
