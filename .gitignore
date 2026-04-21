@@ -1,6 +1,11 @@
-venv/
-.venv/
+# Ignore node modules and Python cache
 node_modules/
-__pycache__/
 .env
 .vscode/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
